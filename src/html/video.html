@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="https://fav.farm/🔥" />
+    <link rel="stylesheet" href="../css/styleVideo.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <title>Javascript Challenge | Projects | Video Play</title>
+  </head>
+  <body>
+    <main class="player" id="idPlayer">
+      <video class="player__video viewer" src="#"></video>
+
+      <div class="player__constrols">
+        <div class="progress" id="idProgress">
+          <div class="progress__filled" id="idProFilled"></div>
+        </div>
+        <button class="player__button toggle" id="idToggle" title="">►</button>
+        <input
+          type="range"
+          name="volume"
+          class="player__slider"
+          min="0"
+          max="1"
+          step="0.05"
+          value="1"
+        />
+        <input
+          type="range"
+          name="playBackRate"
+          class="player__slider"
+          min="0.5"
+          max="2"
+          step="0.1"
+          value="1"
+        />
+        <button data-skip="-10" class="player-button">« 10s</button>
+        <button data-skip="25" class="player__button">25s »</button>
+      </div>
+    </main>
+
+    <!-- === Javascript ===-->
+    <script src="./src/js/index.js"></script>
+  </body>
+</html>

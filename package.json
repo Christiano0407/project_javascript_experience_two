@@ -1,0 +1,22 @@
+{
+  "name": "project_javascript_experience_two",
+  "version": "1.0.0",
+  "description": "projects with vanilla javascript",
+  "main": "src/js/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Christiano0407/project_javascript_experience_two.git"
+  },
+  "keywords": [
+    "javascript"
+  ],
+  "author": "\"Chris Velazquez <placebo0704@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Christiano0407/project_javascript_experience_two/issues"
+  },
+  "homepage": "https://github.com/Christiano0407/project_javascript_experience_two#readme"
+}
